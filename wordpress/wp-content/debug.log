@@ -1,0 +1,84 @@
+[09-Dec-2024 13:24:32 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 112
+[09-Dec-2024 13:25:30 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 83
+[09-Dec-2024 13:26:06 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 116
+[09-Dec-2024 13:26:29 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 116
+[09-Dec-2024 13:26:34 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 116
+[09-Dec-2024 13:26:35 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 116
+[09-Dec-2024 13:26:35 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 116
+[09-Dec-2024 13:26:44 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 116
+[09-Dec-2024 13:27:21 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 116
+[09-Dec-2024 13:27:22 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 116
+[09-Dec-2024 13:27:31 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 116
+[09-Dec-2024 13:27:52 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 92
+[09-Dec-2024 13:40:21 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 92
+[09-Dec-2024 13:40:21 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 92
+[09-Dec-2024 13:40:28 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 92
+[09-Dec-2024 13:40:28 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 92
+[09-Dec-2024 13:40:32 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 92
+[09-Dec-2024 13:40:32 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 92
+[09-Dec-2024 13:45:05 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 100
+[09-Dec-2024 13:45:15 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 100
+[09-Dec-2024 13:47:08 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 100
+[09-Dec-2024 13:47:12 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 100
+[09-Dec-2024 13:47:22 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 100
+[09-Dec-2024 13:48:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function afficher_formulaire_contact() in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php:161
+Stack trace:
+#0 C:\xampp\htdocs\TEST\wordpress\wp-includes\shortcodes.php(434): afficher_et_traiter_formulaire_contact(Array, '', 'formulaire_cont...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\TEST\wordpress\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(formul...', 'do_shortcode_ta...', '[formulaire_con...')
+#3 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[formulaire_con...')
+#4 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\TEST\wordpress\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\TEST\wordpress\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '\t\t<section clas...')
+#12 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\core\base\document.php(1855): do_shortcode('\t\t<section clas...')
+#13 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\frontend.php(1190): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\frontend.php(1085): Elementor\Frontend->get_builder_content(6)
+#16 C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[shortcode_slid...')
+#17 C:\xampp\htdocs\TEST\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('[shortcode_slid...', Array)
+#18 C:\xampp\htdocs\TEST\wordpress\wp-includes\post-template.php(256): apply_filters('the_content', '[shortcode_slid...')
+#19 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#22 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\modules\page-templates\templates\canvas.php(38): Elementor\Modules\PageTemplates\Module->print_content()
+#23 C:\xampp\htdocs\TEST\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#24 C:\xampp\htdocs\TEST\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\TEST\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#26 {main}
+  thrown in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 161
+[09-Dec-2024 13:48:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function afficher_formulaire_contact() in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php:161
+Stack trace:
+#0 C:\xampp\htdocs\TEST\wordpress\wp-includes\shortcodes.php(434): afficher_et_traiter_formulaire_contact(Array, '', 'formulaire_cont...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\TEST\wordpress\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(formul...', 'do_shortcode_ta...', '[formulaire_con...')
+#3 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[formulaire_con...')
+#4 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\TEST\wordpress\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\TEST\wordpress\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '\t\t<section clas...')
+#12 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\core\base\document.php(1855): do_shortcode('\t\t<section clas...')
+#13 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\frontend.php(1190): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\includes\frontend.php(1085): Elementor\Frontend->get_builder_content(6)
+#16 C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[shortcode_slid...')
+#17 C:\xampp\htdocs\TEST\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('[shortcode_slid...', Array)
+#18 C:\xampp\htdocs\TEST\wordpress\wp-includes\post-template.php(256): apply_filters('the_content', '[shortcode_slid...')
+#19 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#22 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\modules\page-templates\templates\canvas.php(38): Elementor\Modules\PageTemplates\Module->print_content()
+#23 C:\xampp\htdocs\TEST\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#24 C:\xampp\htdocs\TEST\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\TEST\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#26 {main}
+  thrown in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 161
+[09-Dec-2024 13:49:10 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 100

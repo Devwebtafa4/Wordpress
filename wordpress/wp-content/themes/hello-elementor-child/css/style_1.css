@@ -1,47 +1,54 @@
-body {
-    background: #ccc;
-}
-
-.main {
-    font-family: Arial;
-    width: 500px;
-    display: block;
-    margin: 0 auto;
-}
-
-h3 {
-    background: #fff;
-    color: #3498db;
-    font-size: 36px;
-    line-height: 100px;
-    margin: 10px;
-    padding: 2%;
+.carousel-container {
     position: relative;
-    text-align: center;
-}
-
-.action {
-    display: block;
-    margin: 100px auto;
     width: 100%;
-    text-align: center;
-}
-
-.action a {
-    display: inline-block;
-    padding: 5px 10px;
-    background: #f30;
-    color: #fff;
-    text-decoration: none;
-}
-
-.action a:hover {
-    background: #000;
-}
-
-ul.slick-dots {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carousel {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  
+  button.prev-btn, button.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button.prev-btn {
+    left: 10px;
+  }
+  
+  button.next-btn {
+    right: 10px;
+  }
+  .carousel-container img {
+    height: 600px;
+    width: 100%;
 }

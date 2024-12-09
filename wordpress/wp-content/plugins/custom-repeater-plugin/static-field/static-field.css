@@ -1,0 +1,27 @@
+.static-field-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.static-field-item label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.static-field-item input,
+.static-field-item textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+.gallery-preview img {
+    margin-right: 10px;
+    max-width: 100px;
+    display: inline-block;
+}
+
+#static_field,#static-field-group,#static_field .static-field-item {
+  background: #f3f6fa;
+}

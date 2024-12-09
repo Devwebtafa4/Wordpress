@@ -1,0 +1,40 @@
+.remove-field {
+    margin-left: 10px;
+}
+.repeater-field > div {
+    flex: 1;
+    min-width: 200px;
+}
+.repeater-field {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+.repeater-field label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.repeater-field input, .repeater-field textarea, .repeater-field button {
+    width: 80%;
+    max-width: 80%;
+}
+.repeater-field img {
+    margin-top: 10px;
+}
+.gallery-preview img {
+    margin-right: 10px;
+    max-width: 100px;
+    display: inline-block;
+}
+.gallery-preview{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fake_textarea{
+    overflow-y: scroll;
+}

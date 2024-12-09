@@ -1,26 +1,31 @@
 jQuery(document).ready(function($) {
-    // Initialisation du slider principal
-    $('.slider-for').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.slider-nav'
+    let currentIndex = 0;
+    const items = $('.carousel-item');
+    const totalItems = items.length;
+
+    function showSlide(index) {
+        if (index < 0) {
+            currentIndex = totalItems - 1;
+        } else if (index >= totalItems) {
+            currentIndex = 0;
+        } else {
+            currentIndex = index;
+        }
+
+        // Move the carousel to the current slide
+        $('.carousel').css('transform', 'translateX(' + (-currentIndex * 100) + '%)');
+    }
+
+    // Show the next slide
+    $('.next-btn').click(function() {
+        showSlide(currentIndex + 1);
     });
 
-    // Initialisation du slider de navigation
-    $('.slider-nav').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        asNavFor: '.slider-for',
-        dots: true,
-        focusOnSelect: true
+    // Show the previous slide
+    $('.prev-btn').click(function() {
+        showSlide(currentIndex - 1);
     });
 
-    // Action pour changer de slide
-    $('a[data-slide]').click(function(e) {
-        e.preventDefault();
-        var slideno = $(this).data('slide');
-        $('.slider-nav').slick('slickGoTo', slideno - 1);
-    });
+    // Initialize the first slide
+    showSlide(currentIndex);
 });
