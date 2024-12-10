@@ -2,30 +2,29 @@
 /**
  * Recommended way to include parent theme styles.
  * (Please see http://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme)
- *
- */  
+ */
 
-add_action( 'wp_enqueue_scripts', 'twenty_twenty_four_child_style' );
+add_action('wp_enqueue_scripts', 'twenty_twenty_four_child_style');
 function twenty_twenty_four_child_style() {
     // Charger le style du thème parent
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
 
     // Charger le style du thème enfant
-    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'parent-style' ) );
+    wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'));
 
     // Charger le CSS et JavaScript de Slick Carousel depuis les fichiers locaux
-    wp_enqueue_style( 'slick-carousel-css', get_stylesheet_directory_uri() . '/assets/css/slick.min.css', array(), '1.9.0' );
-    wp_enqueue_script( 'slick-carousel-js', get_stylesheet_directory_uri() . '/assets/js/slick.min.js', array( 'jquery' ), '1.9.0', true );
+    wp_enqueue_style('slick-carousel-css', get_stylesheet_directory_uri() . '/assets/css/slick.min.css', array(), '1.9.0');
+    wp_enqueue_script('slick-carousel-js', get_stylesheet_directory_uri() . '/assets/js/slick.min.js', array('jquery'), '1.9.0', true);
 
     // Charger le fichier JavaScript personnalisé du thème enfant
-    wp_enqueue_script( 'child-main-js', get_stylesheet_directory_uri() . '/js/main.js', array( 'jquery', 'slick-carousel-js' ), null, true );
+    wp_enqueue_script('child-main-js', get_stylesheet_directory_uri() . '/js/main.js', array('jquery', 'slick-carousel-js'), null, true);
 
     // Charger un autre fichier CSS si nécessaire
-    wp_enqueue_style( 'style-1', get_stylesheet_directory_uri() . '/css/style_1.css' );
+    wp_enqueue_style('style-1', get_stylesheet_directory_uri() . '/css/style_1.css');
 }
 
 // Shortcode pour afficher le slider
-add_shortcode( 'shortcode_slider', 'shortcode_slider' );
+add_shortcode('shortcode_slider', 'shortcode_slider');
 function shortcode_slider() {
     $html = <<<HTML
     <div class="carousel-container">
@@ -74,115 +73,50 @@ function create_contact_form_table() {
     // Utiliser dbDelta pour créer la table ou mettre à jour la structure
     dbDelta($sql);
 }
-
 // Appeler la fonction lors de l'activation du thème
-register_activation_hook( __FILE__, 'create_contact_form_table' );
+register_activation_hook(__FILE__, 'create_contact_form_table');
 
-
-add_shortcode( 'formulaire_contact', 'funct_formulaire_contact' );
-
+// Shortcode pour le formulaire de contact
+add_shortcode('formulaire_contact', 'funct_formulaire_contact');
 function funct_formulaire_contact() {
-    // Traitement du formulaire
-    if (isset($_POST['submit_contact_form'])) {
-        traiter_formulaire_contact();
-    }
-
     // Formulaire HTML
-	$html = '<div class="contact-form-container">
-				<h3>Contactez-nous</h3>
-				<form id="contact-form" method="post" action="">
-					<div class="form-group">
-						<label for="name">Nom:</label>
-						<input type="text" id="name" name="name" required />
-					</div>
-					<div class="form-group">
-						<label for="email">Email:</label>
-						<input type="email" id="email" name="email" required />
-					</div>
-					<div class="form-group">
-						<label for="message">Message:</label>
-						<textarea id="message" name="message" rows="4" required></textarea>
-					</div>
-					<div class="form-group">
-						<button type="submit" name="submit_contact_form" id="submit-contact-form">Envoyer</button>
-					</div>
-					' . wp_nonce_field( 'submit_contact_form_nonce', 'contact_form_nonce' ) . '
-				</form>
-				<div id="response"></div>
-			</div>';
-             
+    $html = '<div class="contact-form-container">
+                <h3>Contactez-nous</h3>
+                <form id="contact-form" method="post" action="">
+                    <div class="form-group">
+                        <label for="name">Nom:</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" name="submit_contact_form" id="submit-contact-form">Envoyer</button>
+                    </div>
+                    ' . wp_nonce_field('submit_contact_form_nonce', 'contact_form_nonce', false, false) . '
+                </form>
+                <div id="response"></div>
+            </div>';
 
     return $html;
 }
 
-
-function traiter_formulaire_contact() {
-    global $wpdb;
-
-    // Vérifier le nonce pour la sécurité
-    if (!isset($_POST['contact_form_nonce']) || !wp_verify_nonce($_POST['contact_form_nonce'], 'submit_contact_form_nonce')) {
-        echo '<p>Erreur de sécurité, le formulaire n\'a pas été soumis correctement.</p>';
-        return;
-    }
-
-    // Sécuriser les données soumises
-    $nom = sanitize_text_field($_POST['name']);
-    $email = sanitize_email($_POST['email']);
-    $message = sanitize_textarea_field($_POST['message']);
-
-    // Validation des données
-    if (!is_email($email)) {
-        echo '<p>Adresse email invalide.</p>';
-        return;
-    }
-
-    // Insérer les données dans la base de données
-    $table_name = $wpdb->prefix . 'formulaire_contact';
-
-    // Insérer dans la table
-    $wpdb->insert(
-        $table_name,
-        array(
-            'nom' => $nom,
-            'email' => $email,
-            'message' => $message
-        )
-    );
-
-    // Affichage d'un message de succès
-    echo '<p>Merci pour votre message ! Nous vous répondrons sous peu.</p>';
-
-    // Ne pas rediriger (retourner à la même page)
-    // Utilisation de wp_redirect pour forcer la non-redirection
-    exit;
-}
-
-function enqueue_contact_form_script() {
-    wp_enqueue_script('contact-form-ajax', get_stylesheet_directory_uri() . '/js/contact-form.js', array('jquery'), null, true);
-
-    // Ajouter la variable AJAX pour permettre à JavaScript de faire des requêtes AJAX via admin-ajax.php
-    wp_localize_script('contact-form-ajax', 'contact_form_ajax_obj', array(
-        'ajax_url' => admin_url('admin-ajax.php'), // L'URL de l'admin AJAX
-        'nonce' => wp_create_nonce('submit_contact_form_nonce') // Le nonce pour la sécurité
-    ));
-}
-add_action('wp_enqueue_scripts', 'enqueue_contact_form_script');
-
-// 3. Fonction qui traite l'envoi du formulaire avec AJAX
+// Fonction de traitement AJAX pour le formulaire de contact
 function traiter_formulaire_contact_ajax() {
     // Vérifier le nonce pour la sécurité
-    if ( !isset($_POST['nonce']) || !wp_verify_nonce($_POST['nonce'], 'submit_contact_form_nonce') ) {
-        echo 'Nonce invalide';
-        die();
+    if (!isset($_POST['nonce']) || !wp_verify_nonce($_POST['nonce'], 'submit_contact_form_nonce')) {
+        wp_send_json_error(array('message' => 'Nonce invalide'));
     }
 
     // Vérifier si les champs sont bien remplis
     if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) {
         global $wpdb;
 
-		echo '<pre>';
-		echo var_dump ($_POST);
-		echo '</pre>';
         // Sécuriser les données
         $nom = sanitize_text_field($_POST['name']);
         $email = sanitize_email($_POST['email']);
@@ -190,8 +124,7 @@ function traiter_formulaire_contact_ajax() {
 
         // Validation de l'email
         if (!is_email($email)) {
-            echo 'Adresse email invalide.';
-            die();
+            wp_send_json_error(array('message' => 'Adresse email invalide.'));
         }
 
         // Insérer les données dans la base de données
@@ -206,14 +139,46 @@ function traiter_formulaire_contact_ajax() {
         );
 
         // Réponse en cas de succès
-        echo 'Merci pour votre message ! Nous vous répondrons sous peu.';
+        wp_send_json_success(array('message' => 'Merci pour votre message ! Nous vous répondrons sous peu.'));
     } else {
-        echo 'Tous les champs sont requis.';
+        wp_send_json_error(array('message' => 'Tous les champs sont requis.'));
     }
-    // Terminer l'exécution pour retourner la réponse à AJAX
-    die();
 }
 
 // Ajouter l'action AJAX pour les utilisateurs connectés et non connectés
 add_action('wp_ajax_submit_contact_form', 'traiter_formulaire_contact_ajax');
 add_action('wp_ajax_nopriv_submit_contact_form', 'traiter_formulaire_contact_ajax');
+
+// Enregistrer le script JavaScript pour gérer l'AJAX
+function enqueue_contact_form_script() {
+    wp_enqueue_script('contact-form-ajax', get_stylesheet_directory_uri() . '/js/contact-form.js', array('jquery'), null, true);
+
+    // Ajouter la variable AJAX pour permettre à JavaScript de faire des requêtes AJAX via admin-ajax.php
+    wp_localize_script('contact-form-ajax', 'contact_form_ajax_obj', array(
+        'ajax_url' => admin_url('admin-ajax.php'), // L'URL de l'admin AJAX
+        'nonce' => wp_create_nonce('submit_contact_form_nonce') // Le nonce pour la sécurité
+    ));
+}
+add_action('wp_enqueue_scripts', 'enqueue_contact_form_script');
+
+// Shortcode pour afficher les champs ACF
+add_shortcode('acf_champ', function() {
+    global $post;
+
+    // Utilisation de get_fields pour récupérer tous les champs ACF du post
+    $fields = get_fields($post->ID);
+
+    if ($fields) {
+        $output = '';
+        foreach ($fields as $key => $field_value) {
+            $output .= <<<HTML
+            <div class="acf-field">
+                <h3>{$key}</h3>
+                <p>{$field_value}</p>
+            </div>
+HTML;        
+        }
+        return $output;
+    }
+    return 'Aucun champ ACF trouvé.';
+});
