@@ -100,7 +100,9 @@ function funct_formulaire_contact() {
                     </div>
                     ' . wp_nonce_field('submit_contact_form_nonce', 'contact_form_nonce', false, false) . '
                 </form>
-                <div id="response"></div>
+                <div id="response">
+            
+                </div>
             </div>';
 
     return $html;
@@ -139,7 +141,11 @@ function traiter_formulaire_contact_ajax() {
         );
 
         // Réponse en cas de succès
-        wp_send_json_success(array('message' => 'Merci pour votre message ! Nous vous répondrons sous peu.'));
+        // Inclure les données $_POST dans la réponse pour débogage
+        wp_send_json_success(array(
+            'message' => 'Merci pour votre message ! Nous vous répondrons sous peu.',
+            'post_data' => print_r($_POST, true) // Ajout des données $_POST pour le débogage
+        ));
     } else {
         wp_send_json_error(array('message' => 'Tous les champs sont requis.'));
     }
@@ -181,4 +187,27 @@ HTML;
         return $output;
     }
     return 'Aucun champ ACF trouvé.';
+});
+
+
+// test
+add_shortcode('test', function() {
+    global $post;
+
+    // Afficher l'ID du post pour vérifier qu'il est valide
+    echo 'Post ID: ' . $post->ID . '<br>';
+
+    if( !empty($post->ID) && function_exists('get_fields') ) {
+        $fields = get_fields($post->ID);
+
+        if ($fields) {
+            echo '<pre>';
+            var_dump($fields); // Afficher les champs ACF
+            echo '</pre>';
+        } else {
+            echo 'Aucun champ ACF trouvé pour ce post.';
+        }
+    } else {
+        echo 'Le post ou la page n\'a pas d\'ID valide ou ACF n\'est pas activé.';
+    }
 });

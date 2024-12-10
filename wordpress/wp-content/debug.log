@@ -82,3 +82,53 @@ Stack trace:
 #26 {main}
   thrown in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 161
 [09-Dec-2024 13:49:10 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 100
+[10-Dec-2024 06:09:56 UTC] PHP Warning:  wp_version_check(): Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in C:\xampp\htdocs\TEST\wordpress\wp-includes\functions.php on line 6114
+[10-Dec-2024 06:10:05 UTC] PHP Warning:  translations_api(): Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in C:\xampp\htdocs\TEST\wordpress\wp-includes\functions.php on line 6114
+[10-Dec-2024 06:10:49 UTC] PHP Warning:  translations_api(): Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in C:\xampp\htdocs\TEST\wordpress\wp-includes\functions.php on line 6114
+[10-Dec-2024 06:10:57 UTC] PHP Warning:  wp_update_plugins(): Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in C:\xampp\htdocs\TEST\wordpress\wp-includes\functions.php on line 6114
+[10-Dec-2024 06:11:16 UTC] PHP Warning:  wp_update_themes(): Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in C:\xampp\htdocs\TEST\wordpress\wp-includes\functions.php on line 6114
+[10-Dec-2024 06:11:27 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\TEST\wordpress\wp-includes\Requests\src\Transport\Curl.php on line 205
+[10-Dec-2024 07:30:30 UTC] Automatic updates starting...
+[10-Dec-2024 07:30:30 UTC] Automatic updates complete.
+[10-Dec-2024 07:52:11 UTC] PHP Parse error:  Unclosed '(' on line 233 does not match '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 265
+[10-Dec-2024 07:52:13 UTC] PHP Parse error:  Unclosed '(' on line 233 does not match '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 265
+[10-Dec-2024 07:52:33 UTC] PHP Parse error:  Unclosed '(' on line 233 does not match '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 265
+[10-Dec-2024 07:53:44 UTC] PHP Parse error:  Unclosed '(' on line 233 does not match '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 265
+[10-Dec-2024 07:54:34 UTC] PHP Parse error:  Unclosed '(' on line 233 does not match '}' in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 265
+[10-Dec-2024 09:04:41 UTC] PHP Parse error:  Unclosed '{' on line 114 in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 196
+[10-Dec-2024 09:04:43 UTC] PHP Parse error:  Unclosed '{' on line 114 in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 196
+[10-Dec-2024 09:04:54 UTC] PHP Parse error:  Unclosed '{' on line 114 in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 196
+[10-Dec-2024 09:05:03 UTC] PHP Parse error:  Unclosed '{' on line 114 in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 196
+[10-Dec-2024 09:06:24 UTC] PHP Parse error:  Unclosed '{' on line 114 in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 196
+[10-Dec-2024 09:06:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_contact_form_script" not found or invalid function name in C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\TEST\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\TEST\wordpress\wp-includes\script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\TEST\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\TEST\wordpress\wp-includes\general-template.php(3064): do_action('wp_head')
+#7 C:\xampp\htdocs\TEST\wordpress\wp-includes\template-canvas.php(17): wp_head()
+#8 C:\xampp\htdocs\TEST\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\TEST\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\TEST\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php on line 324
+[10-Dec-2024 09:06:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_contact_form_script" not found or invalid function name in C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\TEST\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\TEST\wordpress\wp-includes\script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\TEST\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\TEST\wordpress\wp-includes\general-template.php(3064): do_action('wp_head')
+#7 C:\xampp\htdocs\TEST\wordpress\wp-content\plugins\elementor\modules\page-templates\templates\canvas.php(19): wp_head()
+#8 C:\xampp\htdocs\TEST\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\TEST\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\TEST\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-hook.php on line 324
+[10-Dec-2024 09:22:27 UTC] PHP Deprecated:  La fonction print_emoji_styles est <strong>obsolète</strong> depuis la version 6.4.0 ! Utilisez wp_enqueue_emoji_styles à la place. in C:\xampp\htdocs\TEST\wordpress\wp-includes\functions.php on line 6114
+[10-Dec-2024 09:26:05 UTC] PHP Parse error:  syntax error, unexpected token "function", expecting ")" in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 194
