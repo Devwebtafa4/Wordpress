@@ -107,3 +107,14 @@
   color: red;
   text-align: center;
 }
+/* ---------------- */
+#forme_compte {
+  height: 300px;
+  background: radial-gradient(black, transparent);
+  display: flex
+;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  COLOR: WHITE;
+}

@@ -189,34 +189,161 @@ add_shortcode('test', function() {
       
         $args = array(
             'post_type'      => 'services',
-
             // 'post__in'=>[$id_testess],
             'posts_per_page' => -1,
         );
         $the_query = new WP_Query( $args );
         $value = $the_query->posts;
         foreach($value as $key => $val){
-            //  echo '<pre>';
-            //  echo var_dump($val->ID);
-            //  echo '</pre>';
             $affich= $val->ID;
 
              if($affich == 22){
                 $post_detail =get_post($affich);
 
-                echo '<pre>';
-                var_dump($post_detail);  // Vous pouvez voir tous les détails du post ici
-                echo '</pre>';
+                // Exemple d'affichage des informations spécifiques du post
+                echo '<p style="color:red">' . esc_html($post_detail->post_title) . '</p>';
+                echo '<p><a href="' . esc_url($post_detail->guid) . '">lien 1 vers Services</a></p>';
+             }
+             elseif($affich == 15){
+                $post_detail =get_post($affich);
     
                 // Exemple d'affichage des informations spécifiques du post
-                echo '<p><strong>Titre:</strong> ' . esc_html($post_detail->post_title) . '</p>';
-                echo '<p><strong>Contenu:</strong> ' . esc_html($post_detail->guid) . '</p>';
-                echo '<p><a href="' . esc_url($post_detail->guid) . '">lien vers Services</a></p>';
-                // Vous pouvez aussi ajouter d'autres informations comme la date de publication, l'auteur, etc.
+                echo '<p style="color:red">' . esc_html($post_detail->post_title) . '</p>';
+                echo '<p><a href="' . esc_url($post_detail->guid) . '">lien 2 vers Services </a></p>';
              }
         }
-    
         wp_reset_postdata();
+});
+
+add_shortcode('recuperation_media', function(){
+    $args = array(
+        'post_type'      => 'attachment',
+        'posts_per_page' => 10, // Limite le nombre de résultats
+        'post_status'    => 'inherit', // Les médias ont un statut 'inherit'
+    ); 
+    $query = new WP_Query($args);
+   
+    if ($query->have_posts()) :
+        while ($query->have_posts()) : $query->the_post();
+            $attachment_id = get_the_ID();
+            $attachment_url = wp_get_attachment_url($attachment_id);
+            $attachment_title = get_the_title();
+            $attachment_date = get_the_date();
+    
+            $html .= <<<HTML
+            <section class="gallery-item">
+                <div id="images_aff">
+                    <img src="{$attachment_url}" alt="{$attachment_title}" />
+                </div>
+            </section>
+    HTML;
+ 
+        endwhile;
+    else :
+        echo 'No media found.';
+    endif;
+    
+    // Reset post data
+    wp_reset_postdata();
+    return $html;
+});
+
+add_shortcode('filtrer_nos_publication', function() {
+    $args = array(
+        'post_type'      => 'services', 
+        'posts_per_page' => -1,      
+    );
+    $query = new WP_Query($args);
+
+    $values = $query->posts;
+    foreach($values as $key=>$value){
+       $affichage = $value->ID;
+
+       if($affichage == 22){
+        $post_detail = get_post($affichage);
+      
+        // Exemple d'affichage des informations spécifiques du post
+        echo '<p style="color:green">' . esc_html($post_detail->post_title) . '</p>';
+        echo '<p><a href="' . esc_url($post_detail -> guid) . '"> lien 2 vers Services </a></p>';
+       }
+    }
+    return $output;
+});
+
+
+
+// // Enregistrement du shortcode et des actions pour la gestion de la connexion
+// function register_login_form_shortcode() {
+   
+//     add_action('admin_post_action_login', 'handle_custom_login');
+//     add_action('admin_post_nopriv_action_login', 'handle_custom_login');
+// }
+// add_action('init', 'register_login_form_shortcode');
+
+// // Traitement de la soumission du formulaire de connexion
+// function handle_custom_login() {
+//     // Vérification du nonce pour la sécurité
+//     if (!isset($_POST['_wpnonce']) || !wp_verify_nonce($_POST['_wpnonce'], 'custom_login_nonce')) {
+//         wp_redirect(home_url('/register')); // Redirection en cas d'erreur de nonce
+//         exit;
+//     }
+
+//     // Vérification que les champs sont remplis
+//     if (!isset($_POST['txtUserName']) || !isset($_POST['password'])) {
+//         wp_redirect(home_url('/register')); // Redirection en cas d'erreur de champs manquants
+//         exit;
+//     }
+
+//     // Préparer les données de connexion
+//     $credentials = [
+//         'user_login'    => sanitize_text_field($_POST['txtUserName']),
+//         'user_password' => $_POST['password'],
+//         'remember'      => true,
+//     ];
+
+//     // Essayer de connecter l'utilisateur
+//     $user = wp_signon($credentials, is_ssl());
+
+//     if (is_wp_error($user)) {
+//         // En cas d'erreur, rediriger avec un message d'erreur
+//         wp_redirect(home_url('/register')); // Vous pouvez rediriger vers une page d'erreur spécifique
+//         exit;
+//     }
+
+//     // Connexion réussie, rediriger vers l'accueil ou une page spécifique
+//     wp_redirect(home_url()); // Vous pouvez rediriger vers une page spécifique
+//     exit;
+// }
+
+// // Affichage du formulaire de connexion
+add_shortcode('forme_compte', function() {
+    // Générer un nonce pour la sécurité
+    // $nonce = wp_nonce_field('custom_login_nonce', '_wpnonce', true, false);
+
+    // Formulaire de connexion
+    $HTML = '
+        <div id="forme_compte">
+            <form method="POST" action="' . esc_url(admin_url('admin-post.php')) . '">
+                ' . $nonce . '
+                <input type="hidden" name="action" value="action_login">
+                <div class="input-group">
+                    <label for="txtUserName">Identifiant ou e-mail<span>*</span></label>
+                    <input type="text" class="form-control" name="txtUserName" required/>
+                </div>
+                <div class="input-group">
+                    <label for="txtPassword">Mot de passe<span>*</span></label>
+                    <div class="ligne1">
+                        <input type="password" id="txtPassword" class="form-control" name="password" required>
+                        <button type="button" id="btnToggle" class="toggle"><i id="eyeIcon" class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="boutton">
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Se connecter</button>
+                </div>
+            </form>
+        </div>';
+
+    return $HTML;
 });
 
 

@@ -333,3 +333,505 @@ Stack trace:
 [12-Dec-2024 10:38:11 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
 [12-Dec-2024 10:38:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
 [12-Dec-2024 10:38:11 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:50:22 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:50:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:50:22 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:50:34 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:50:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:50:34 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:51:48 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 227
+[12-Dec-2024 10:51:48 UTC] PHP Notice:  La fonction _load_textdomain_just_in_time a été appelée de façon <strong>incorrecte</strong>. Le chargement de la traduction pour le domaine <code>twenty-twenty-four-child</code> a été déclenché trop tôt. Cela indique généralement que du code dans l’extension ou le thème s’exécute trop tôt. Les traductions doivent être chargées au moment de l’action <code>init</code> ou plus tard. Veuillez lire <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 6.7.0.) in C:\xampp\htdocs\TEST\wordpress\wp-includes\functions.php on line 6114
+[12-Dec-2024 10:51:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[12-Dec-2024 10:51:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[12-Dec-2024 10:52:00 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:52:00 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:52:00 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:52:23 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:52:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:52:23 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:52:23 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:52:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:52:23 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:53:32 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:53:32 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:53:32 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:07 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:07 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:07 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:33 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:33 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:33 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:58 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:58 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:58 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:58 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:58 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:58 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:59 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:59 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:59 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:59 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:59 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:54:59 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:55:28 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:55:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:55:28 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:55:40 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:55:40 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:55:40 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:55:40 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:55:40 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:55:40 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:57:27 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:57:27 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:57:27 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:57:38 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:57:38 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:57:38 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:57:42 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:57:42 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:57:42 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:58:53 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 10:58:53 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:01:41 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:01:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:01:41 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:05:31 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:05:31 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:05:31 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:28:11 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:28:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:28:11 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:28:27 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:28:27 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:28:27 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:28:39 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:28:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:28:39 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:38:07 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:38:07 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:38:07 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:30 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:30 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:30 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:40 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:40 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:40 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:40 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:40 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:40 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:40 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:40 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:40 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:58 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:58 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:39:58 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:40:11 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:40:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:40:11 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:40:28 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:40:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:40:28 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:46:59 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:46:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:46:59 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:49:54 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:49:54 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:49:54 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:49:57 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:49:57 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:49:57 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:49:58 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:49:58 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:49:58 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:50:43 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:50:43 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:50:43 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:50:43 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:50:43 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:50:43 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:51:03 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:51:03 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:51:03 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:38 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:38 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:38 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:50 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:50 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:50 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:50 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:50 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:50 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:50 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:50 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 11:54:50 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 14:37:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wpdb.php on line 1982
+[12-Dec-2024 14:37:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp\htdocs\TEST\wordpress\wp-includes\class-wpdb.php on line 1982
+[12-Dec-2024 14:37:57 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 14:37:57 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 14:37:57 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[12-Dec-2024 14:37:57 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:33:18 UTC] Automatic updates starting...
+[13-Dec-2024 06:33:20 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:33:20 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:33:20 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:33:20 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:33:20 UTC]   Automatic plugin updates starting...
+[13-Dec-2024 06:33:20 UTC]   Automatic plugin updates complete.
+[13-Dec-2024 06:33:22 UTC] Automatic updates complete.
+[13-Dec-2024 06:35:15 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:35:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:35:15 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:35:15 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:39:54 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:39:54 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:39:54 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:39:54 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:40:01 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:01 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:01 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:40:04 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:04 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:04 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:04 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:40:39 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:39 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:39 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:40:40 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:40 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:40:40 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:40 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:49 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:49 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:49 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:40:49 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:49 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:40:49 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:44:01 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:44:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:44:01 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:44:01 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:44:08 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:44:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:44:08 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:44:08 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:49:53 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:49:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:49:53 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:49:53 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:50:00 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:00 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:00 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:00 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:50:09 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:09 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:09 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:09 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:50:18 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:18 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:18 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:18 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:50:20 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:20 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:20 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:20 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:50:46 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:46 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:46 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:50:47 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:50:47 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:47 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:47 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:55 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:55 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:50:55 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:52:20 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:52:20 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:52:20 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:52:21 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 06:55:14 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:55:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:55:14 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 06:55:14 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 07:03:21 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:03:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:03:21 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:03:21 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 07:03:21 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 265
+[13-Dec-2024 07:07:52 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:07:52 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:07:52 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:07:52 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 239
+[13-Dec-2024 07:07:52 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 265
+[13-Dec-2024 07:12:28 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:12:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:12:28 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:12:28 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:12:28 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 262
+[13-Dec-2024 07:13:36 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:13:36 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:13:36 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:13:36 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:13:36 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 262
+[13-Dec-2024 07:13:55 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:13:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:13:55 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:13:55 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:13:55 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 262
+[13-Dec-2024 07:15:46 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:15:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:15:46 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:15:46 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:15:46 UTC] PHP Warning:  Undefined variable $the_query in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 258
+[13-Dec-2024 07:15:46 UTC] PHP Warning:  Attempt to read property "posts" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 258
+[13-Dec-2024 07:15:46 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 264
+[13-Dec-2024 07:16:23 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:16:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:16:23 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:16:23 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:16:23 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 264
+[13-Dec-2024 07:19:18 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:19:18 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:19:18 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:19:18 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:19:18 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 266
+[13-Dec-2024 07:19:21 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:19:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:19:21 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:19:21 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:19:21 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 266
+[13-Dec-2024 07:19:26 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:19:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:19:26 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:19:26 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:19:26 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 266
+[13-Dec-2024 07:20:03 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:20:03 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:20:03 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:20:03 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:20:03 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 266
+[13-Dec-2024 07:22:18 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:22:18 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:22:18 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:22:18 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:22:18 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 271
+[13-Dec-2024 07:24:32 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:24:32 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:24:32 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:24:32 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:24:32 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 271
+[13-Dec-2024 07:25:17 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:25:17 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:25:17 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:25:17 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:25:17 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 271
+[13-Dec-2024 07:25:18 UTC] Automatic updates starting...
+[13-Dec-2024 07:25:18 UTC]   Automatic plugin updates starting...
+[13-Dec-2024 07:25:18 UTC]   Automatic plugin updates complete.
+[13-Dec-2024 07:25:18 UTC] Automatic updates complete.
+[13-Dec-2024 07:27:21 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:27:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:27:21 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:27:21 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:27:21 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 273
+[13-Dec-2024 07:37:45 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:37:45 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:37:45 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:37:45 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:37:45 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 273
+[13-Dec-2024 07:39:26 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:39:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:39:26 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:39:26 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:39:26 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 272
+[13-Dec-2024 07:40:23 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:40:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:40:23 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:40:23 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:40:23 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 275
+[13-Dec-2024 07:40:37 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:40:37 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:40:37 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 07:40:37 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 07:40:37 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 275
+[13-Dec-2024 08:21:39 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:21:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:21:39 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:21:39 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 08:21:39 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 275
+[13-Dec-2024 08:22:07 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:22:07 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:22:07 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:22:07 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 08:22:07 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 275
+[13-Dec-2024 08:23:14 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:23:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:23:14 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:23:14 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 08:23:14 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 275
+[13-Dec-2024 08:23:32 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:23:32 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:23:32 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:23:32 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 08:23:32 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 274
+[13-Dec-2024 08:29:33 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:29:33 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:29:33 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:29:33 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 08:29:33 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 274
+[13-Dec-2024 08:29:39 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:29:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:29:39 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:29:39 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 08:29:39 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 274
+[13-Dec-2024 08:29:41 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:29:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:29:41 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:29:41 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 08:29:41 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 274
+[13-Dec-2024 08:30:12 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:30:12 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:30:12 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:30:12 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 08:30:12 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 274
+[13-Dec-2024 08:30:14 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 274
+[13-Dec-2024 08:30:14 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 08:30:14 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:30:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:30:14 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:30:23 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:30:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:30:23 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 08:30:23 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 08:30:23 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 274
+[13-Dec-2024 09:06:53 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:06:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:06:53 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:06:53 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 09:06:53 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 274
+[13-Dec-2024 09:29:26 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:29:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:29:26 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:29:26 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 09:29:28 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 09:29:29 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:29:29 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:29:29 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:29:43 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:29:43 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:29:43 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 09:29:43 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 10:32:50 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:32:50 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:32:50 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 10:33:02 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:33:02 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:33:02 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:33:02 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 10:35:07 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:35:07 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:35:07 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:35:07 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:35:07 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:35:07 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:35:07 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 10:35:07 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 10:35:10 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:35:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:35:10 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:35:10 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 10:41:36 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:41:36 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:41:36 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 10:41:36 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 10:41:36 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 271
+[13-Dec-2024 11:05:43 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:05:43 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:05:43 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:05:43 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:05:43 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:05:48 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:05:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:05:48 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:05:48 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:05:48 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:05:50 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:05:50 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:05:50 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:05:50 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:05:50 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:06:43 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:06:43 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:06:43 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:06:43 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:06:43 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:06:45 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:06:45 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:06:45 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:06:46 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:06:46 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:07:10 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:07:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:07:10 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:07:10 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:07:10 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:08:39 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:08:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:08:39 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:08:39 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:08:39 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:08:48 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:08:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:08:48 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:08:48 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:08:48 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:10:11 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:10:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:10:11 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:10:12 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:10:12 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:10:29 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:10:29 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:10:29 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:10:29 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:10:29 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:10:41 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:10:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:10:41 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:10:41 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:10:41 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:13:30 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:13:30 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:13:30 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:13:30 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:13:30 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:13:30 UTC] PHP Warning:  Undefined variable $nonce in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 327
+[13-Dec-2024 11:13:31 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:13:31 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:13:31 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:13:31 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:13:31 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:13:31 UTC] PHP Warning:  Undefined variable $nonce in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 327
+[13-Dec-2024 11:13:34 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:13:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:13:34 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:13:34 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:13:34 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:13:34 UTC] PHP Warning:  Undefined variable $nonce in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 327
+[13-Dec-2024 11:17:52 UTC] PHP Warning:  Undefined variable $results in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:17:52 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:17:52 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 188
+[13-Dec-2024 11:17:52 UTC] PHP Warning:  Undefined variable $html in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 236
+[13-Dec-2024 11:17:52 UTC] PHP Warning:  Undefined variable $output in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 270
+[13-Dec-2024 11:17:52 UTC] PHP Warning:  Undefined variable $nonce in C:\xampp\htdocs\TEST\wordpress\wp-content\themes\twenty-twenty-four-child\functions.php on line 327
