@@ -4,24 +4,27 @@
  * (Please see http://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme)
  */
 
-add_action('wp_enqueue_scripts', 'twenty_twenty_four_child_style');
-function twenty_twenty_four_child_style() {
-    // Charger le style du thème parent
-    wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
-
-    // Charger le style du thème enfant
-    wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'));
-
-    // Charger le CSS et JavaScript de Slick Carousel depuis les fichiers locaux
-    wp_enqueue_style('slick-carousel-css', get_stylesheet_directory_uri() . '/assets/css/slick.min.css', array(), '1.9.0');
-    wp_enqueue_script('slick-carousel-js', get_stylesheet_directory_uri() . '/assets/js/slick.min.js', array('jquery'), '1.9.0', true);
-
-    // Charger le fichier JavaScript personnalisé du thème enfant
-    wp_enqueue_script('child-main-js', get_stylesheet_directory_uri() . '/js/main.js', array('jquery', 'slick-carousel-js'), null, true);
-
-    // Charger un autre fichier CSS si nécessaire
-    wp_enqueue_style('style-1', get_stylesheet_directory_uri() . '/css/style_1.css');
-}
+ add_action('wp_enqueue_scripts', 'twenty_twenty_four_child_style');
+ function twenty_twenty_four_child_style() {
+     // Charger le style du thème parent
+     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+ 
+     // Charger le style du thème enfant
+     wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'));
+ 
+     // Charger le CSS et JavaScript de Slick Carousel depuis les fichiers locaux
+     wp_enqueue_style('slick-carousel-css', get_stylesheet_directory_uri() . '/assets/css/slick.min.css', array(), '1.9.0');
+ 
+     // Charger le fichier JavaScript de Slick Carousel dans le footer
+     wp_enqueue_script('slick-carousel-js', get_stylesheet_directory_uri() . '/assets/js/slick.min.js', array('jquery'), '1.9.0', true);
+ 
+     // Charger le fichier JavaScript personnalisé du thème enfant dans le footer
+     wp_enqueue_script('child-main-js', get_stylesheet_directory_uri() . '/customes/js/main.js', array('jquery', 'slick-carousel-js'), null, true);
+ 
+     // Charger un autre fichier CSS si nécessaire
+     wp_enqueue_style('style-1', get_stylesheet_directory_uri() . '/css/style_1.css');
+ }
+ 
 
 // Shortcode pour afficher le slider
 add_shortcode('shortcode_slider', 'shortcode_slider');
@@ -268,82 +271,6 @@ add_shortcode('filtrer_nos_publication', function() {
        }
     }
     return $output;
-});
-
-
-
-// // Enregistrement du shortcode et des actions pour la gestion de la connexion
-// function register_login_form_shortcode() {
-   
-//     add_action('admin_post_action_login', 'handle_custom_login');
-//     add_action('admin_post_nopriv_action_login', 'handle_custom_login');
-// }
-// add_action('init', 'register_login_form_shortcode');
-
-// // Traitement de la soumission du formulaire de connexion
-// function handle_custom_login() {
-//     // Vérification du nonce pour la sécurité
-//     if (!isset($_POST['_wpnonce']) || !wp_verify_nonce($_POST['_wpnonce'], 'custom_login_nonce')) {
-//         wp_redirect(home_url('/register')); // Redirection en cas d'erreur de nonce
-//         exit;
-//     }
-
-//     // Vérification que les champs sont remplis
-//     if (!isset($_POST['txtUserName']) || !isset($_POST['password'])) {
-//         wp_redirect(home_url('/register')); // Redirection en cas d'erreur de champs manquants
-//         exit;
-//     }
-
-//     // Préparer les données de connexion
-//     $credentials = [
-//         'user_login'    => sanitize_text_field($_POST['txtUserName']),
-//         'user_password' => $_POST['password'],
-//         'remember'      => true,
-//     ];
-
-//     // Essayer de connecter l'utilisateur
-//     $user = wp_signon($credentials, is_ssl());
-
-//     if (is_wp_error($user)) {
-//         // En cas d'erreur, rediriger avec un message d'erreur
-//         wp_redirect(home_url('/register')); // Vous pouvez rediriger vers une page d'erreur spécifique
-//         exit;
-//     }
-
-//     // Connexion réussie, rediriger vers l'accueil ou une page spécifique
-//     wp_redirect(home_url()); // Vous pouvez rediriger vers une page spécifique
-//     exit;
-// }
-
-// // Affichage du formulaire de connexion
-add_shortcode('forme_compte', function() {
-    // Générer un nonce pour la sécurité
-    // $nonce = wp_nonce_field('custom_login_nonce', '_wpnonce', true, false);
-
-    // Formulaire de connexion
-    $HTML = '
-        <div id="forme_compte">
-            <form method="POST" action="' . esc_url(admin_url('admin-post.php')) . '">
-                ' . $nonce . '
-                <input type="hidden" name="action" value="action_login">
-                <div class="input-group">
-                    <label for="txtUserName">Identifiant ou e-mail<span>*</span></label>
-                    <input type="text" class="form-control" name="txtUserName" required/>
-                </div>
-                <div class="input-group">
-                    <label for="txtPassword">Mot de passe<span>*</span></label>
-                    <div class="ligne1">
-                        <input type="password" id="txtPassword" class="form-control" name="password" required>
-                        <button type="button" id="btnToggle" class="toggle"><i id="eyeIcon" class="fa fa-eye"></i></button>
-                    </div>
-                </div>
-                <div class="boutton">
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">Se connecter</button>
-                </div>
-            </form>
-        </div>';
-
-    return $HTML;
 });
 
 
